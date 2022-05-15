@@ -6445,6 +6445,12 @@ input, select, textarea {
 		height: 8em;
 	}
 }
+@media screen and (max-width: 1000px){
+	.abpho{
+		width: 10em;
+		height: 10em;
+	}
+}
 
 /* transform text for hello */
 
