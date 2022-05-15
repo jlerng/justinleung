@@ -4566,7 +4566,7 @@ input, select, textarea {
 		.smaller2k{
 			font-size: 1.8ex !important;
 			line-height: 2.5ex !important;
-			margin-right:  2em !important;
+			margin-right:  5em !important;
 			margin-left: -10em !important;
 
 		}
@@ -4592,7 +4592,7 @@ input, select, textarea {
 			font-size: 1.8ex !important;
 			line-height: 2.5ex !important;
 			margin-right: 2em !important;
-			margin-left: -10em !important;
+			margin-left: -25em !important;
 		}
 	}
 	@media screen and (max-width: 736px){
