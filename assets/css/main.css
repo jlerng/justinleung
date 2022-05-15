@@ -4561,12 +4561,13 @@ input, select, textarea {
 		line-height: 1.5em;
 		margin-right: -20em;
 	}
-	@media screen and (max-width: 980px){
+	@media screen and (max-width: 1000px){
 
 		.smaller2k{
-			font-size: 0 auto;
-			line-height: 0 auto;
-			margin-right: 6em;
+			font-size: 1.8ex;
+			line-height: 2.5ex;
+			margin-right: 0;
+			margin-left: -5em;
 
 		}
 	}
@@ -4585,13 +4586,12 @@ input, select, textarea {
 		line-height: 1.5em;
 		margin-right: -20em;
 	}
-	@media screen and (max-width: 980px){
+	@media screen and (max-width: 1000px){
 
 		.smaller3{
-			font-size: 0 auto;
-			line-height: 0 auto;
-			margin-right: 6em;
-
+			font-size: 1.8ex;
+			line-height: 2.5ex;
+			margin-right: 0;
 		}
 	}
 	@media screen and (max-width: 736px){
@@ -4707,6 +4707,11 @@ input, select, textarea {
 @media screen and (max-width: 375px) {
 	.trial{
 		margin-right: 12em !important;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.trial{
+		margin-right: 9em !important;
 	}
 }
 
