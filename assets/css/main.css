@@ -4693,6 +4693,12 @@ input, select, textarea {
 		margin-left: -0.5em;
 	}
 }
+@media screen and (max-width: 1000px) {
+	.beware3{
+		padding-left: 0;
+		margin-left: -1em;
+	}
+}
 
 /* adjusting interview img */
 
