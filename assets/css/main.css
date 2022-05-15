@@ -4680,8 +4680,8 @@ input, select, textarea {
 }
 @media screen and (max-width: 1000px){
 	.kitapp{
-		width: 20em;
-		height: 20em;
+		width: 18em;
+		height: 18em;
 		margin-top: 1em;
 	}
 }
