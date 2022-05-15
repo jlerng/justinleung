@@ -4711,7 +4711,7 @@ input, select, textarea {
 }
 @media screen and (max-width: 1000px) {
 	.trial{
-		margin-right: 7em !important;
+		margin-right: 12em !important;
 	}
 }
 
