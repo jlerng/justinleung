@@ -4639,6 +4639,13 @@ input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 1000px){
+	.kitsto{
+		width: 4em !important;
+		height: 4em !important;
+	}
+}
+
 .beware2{
 	margin-top: 0;
 	margin-bottom: -0.05em;
