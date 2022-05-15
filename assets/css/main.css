@@ -6527,11 +6527,3 @@ input, select, textarea {
 	margin-bottom: -0.08em !important;
 }
 
-@media screen and (max-width: 1000px){
-	.kitapp{
-		width: 20em;
-		height: 20em;
-		margin-top: 2em;
-		margin-right; -25em !important;
-	}
-}
