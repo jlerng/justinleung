@@ -4592,11 +4592,11 @@ input, select, textarea {
 
 		.smaller3{
 			display: inline-block !important;
-			width: 100% !important;
+			width: 90% !important;
 			font-size: 1.8ex !important;
 			line-height: 2.5ex !important;
 			margin-right: -1% !important;
-			margin-left: -100% !important;
+			margin-left: -1% !important;
 		}
 	}
 	@media screen and (max-width: 736px){
