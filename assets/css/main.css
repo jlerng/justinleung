@@ -6448,8 +6448,8 @@ input, select, textarea {
 }
 @media screen and (max-width: 1000px){
 	.abpho{
-		width: 100%;
-		height: 12em;
+		width: 8em;
+		height: 8em;
 	}
 }
 
