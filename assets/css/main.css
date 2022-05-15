@@ -4678,6 +4678,13 @@ input, select, textarea {
 		margin-top: 1em;
 	}
 }
+@media screen and (max-width: 1000px){
+	.kitapp{
+		width: 20em;
+		height: 20em;
+		margin-top: 1em;
+	}
+}
 
 /* kitchen stories text adjustments */
 
