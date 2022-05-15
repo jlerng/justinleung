@@ -4564,10 +4564,10 @@ input, select, textarea {
 	@media screen and (max-width: 1000px){
 
 		.smaller2k{
-			font-size: 1.8ex;
-			line-height: 2.5ex;
-			margin-right: 0;
-			margin-left: -5em;
+			font-size: 1.8ex !important;
+			line-height: 2.5ex !important;
+			margin-right: 0 auto !important;
+			margin-left: -5em !important;
 
 		}
 	}
