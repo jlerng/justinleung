@@ -2838,6 +2838,33 @@ input, select, textarea {
 				}
 
 			}
+		
+		.wrapper.style7 >.inner{
+			width: 50em;
+			margin: 0 auto;
+			}
+
+		@media screen and (max-width: 786px) {
+			.wrapper.style7 > .inner {
+				width: 100%
+				}
+			}
+		
+				@media screen and (max-width: 1280px) {
+		
+					.wrapper > .inner {
+						width: 90%;
+					}
+		
+				}
+		
+				@media screen and (max-width: 980px) {
+		
+					.wrapper > .inner {
+							width: 100%;
+					}
+		
+				}
 
 		.wrapper.alt {
 			padding: 0;
@@ -3498,6 +3525,181 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper.style6 .features li {
+					border-top-color: #dfdfdf;
+				}
+
+			}
+
+		@media screen and (max-width: 980px) {
+
+			.wrapper {
+				padding: 4em 4em 2em 1em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.wrapper {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
+
+		.wrapper.style7 {
+			background-color: #000000;
+			color: #AEADAD;
+		}
+
+			.wrapper.style7 strong, .wrapper.style7 b {
+				color: #5e6ceb;
+			}
+
+			.wrapper.style7 h2, .wrapper.style7 h3, .wrapper.style7 h4, .wrapper.style7 h5, .wrapper.style7 h6 {
+				color: #ffffff;
+			}
+
+			.wrapper.style7 hr {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 blockquote {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 code {
+				background: rgba(0, 0, 0, 0.0375);
+			}
+
+			.wrapper.style7 header p {
+				color: #8E8892;
+			}
+
+			.wrapper.style7 header.major h2, .wrapper.style7 header.major h3, .wrapper.style7 header.major h4, .wrapper.style7 header.major h5, .wrapper.style7 header.major h6 {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 header.major p {
+				color: #4E4852;
+			}
+
+			.wrapper.style7 label {
+				color: #2E3842;
+			}
+
+			.wrapper.style7 input[type="text"],
+			.wrapper.style7 input[type="password"],
+			.wrapper.style7 input[type="email"],
+			.wrapper.style7 select,
+			.wrapper.style7 textarea {
+				background-color: rgba(0, 0, 0, 0.0375);
+			}
+
+			.wrapper.style7 select {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+			}
+
+				.wrapper.style7 select option {
+					color: #2E3842;
+					background: #ffffff;
+				}
+
+			.wrapper.style7 input[type="checkbox"] + label,
+			.wrapper.style7 input[type="radio"] + label {
+				color: #4E4852;
+			}
+
+				.wrapper.style7 input[type="checkbox"] + label:before,
+				.wrapper.style7 input[type="radio"] + label:before {
+					background: rgba(0, 0, 0, 0.0375);
+				}
+
+			.wrapper.style7 input[type="checkbox"]:checked + label:before,
+			.wrapper.style7 input[type="radio"]:checked + label:before {
+				background: #2E3842;
+				color: #ffffff;
+			}
+
+			.wrapper.style7 ::-webkit-input-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style7 :-moz-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style7 ::-moz-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style7 :-ms-input-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style7 .formerize-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style7 .icon.major {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 ul.alt li {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 table tbody tr {
+				border-color: #dfdfdf;
+			}
+
+				.wrapper.style7 table tbody tr:nth-child(2n + 1) {
+					background-color: rgba(0, 0, 0, 0.0375);
+				}
+
+			.wrapper.style7 table th {
+				color: #2E3842;
+			}
+
+			.wrapper.style7 table thead {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 table tfoot {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 table.alt tbody tr td {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style7 input[type="submit"],
+			.wrapper.style7 input[type="reset"],
+			.wrapper.style7 input[type="button"],
+			.wrapper.style7 button,
+			.wrapper.style7 .button {
+				box-shadow: inset 0 0 0 2px #dfdfdf;
+				color: #2E3842;
+			}
+
+				.wrapper.style7 input[type="submit"]:hover,
+				.wrapper.style7 input[type="reset"]:hover,
+				.wrapper.style7 input[type="button"]:hover,
+				.wrapper.style7 button:hover,
+				.wrapper.style7 .button:hover {
+					background-color: rgba(0, 0, 0, 0.0375);
+				}
+
+				.wrapper.style7 input[type="submit"]:active,
+				.wrapper.style7 input[type="reset"]:active,
+				.wrapper.style7 input[type="button"]:active,
+				.wrapper.style7 button:active,
+				.wrapper.style7 .button:active {
+					background-color: rgba(0, 0, 0, 0.1);
+				}
+
+			@media screen and (max-width: 736px) {
+
+				.wrapper.style7 .features li {
 					border-top-color: #dfdfdf;
 				}
 
@@ -8813,6 +9015,1681 @@ input, select, textarea {
 @media screen and (max-width: 736px) {
 
 	.dbdclose {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* lost ark goal */
+
+.loain {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loain > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loain > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loain > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loain.alt {
+		padding: 0;
+	}
+.loain {
+	background-color: #30558D;
+	color: #AEADAD;
+}
+
+	.loain strong, .loain b {
+		color: #599A8E;
+	}
+
+	.loain h2, .loain h3, .loain h4, .loain h5, .loain h6 {
+		color: #ffffff;
+	}
+
+	.loain hr {
+		border-color: #dfdfdf;
+	}
+
+	.loain blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loain code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loain header p {
+		color: #8E8892;
+	}
+
+	.loain header.major h2, .loain header.major h3, .loain header.major h4, .loain header.major h5, .loain header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loain header.major p {
+		color: #4E4852;
+	}
+
+	.loain label {
+		color: #2E3842;
+	}
+
+	.loain input[type="text"],
+	.loain input[type="password"],
+	.loain input[type="email"],
+	.loain select,
+	.loain textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loain select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loain select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loain input[type="checkbox"] + label,
+	.loain input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loain input[type="checkbox"] + label:before,
+		.loain input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loain input[type="checkbox"]:checked + label:before,
+	.loain input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loain ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loain :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loain ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loain :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loain .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loain .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loain ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loain table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loain table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loain table th {
+		color: #2E3842;
+	}
+
+	.loain table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loain table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loain table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loain input[type="submit"],
+	.loain input[type="reset"],
+	.loain input[type="button"],
+	.loain button,
+	.loain .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loain input[type="submit"]:hover,
+		.loain input[type="reset"]:hover,
+		.loain input[type="button"]:hover,
+		.loain button:hover,
+		.loain .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loain input[type="submit"]:active,
+		.loain  input[type="reset"]:active,
+		.loain  input[type="button"]:active,
+		.loain  button:active,
+		.loain .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loain .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loain {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loain {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* lost ark analysis */
+
+.loaanly {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loaanly > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loaanly > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loaanly > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loaanly.alt {
+		padding: 0;
+	}
+.loaanly {
+	background-color: #000000;
+	color: #AEADAD;
+}
+
+	.loaanly strong, .loaanly b {
+		color: #1D65D2;
+	}
+
+	.loaanly h2, .loaanly h3, .loaanly h4, .loaanly h5, .loaanly h6 {
+		color: #ffffff;
+	}
+
+	.loaanly hr {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loaanly header p {
+		color: #8E8892;
+	}
+
+	.loaanly header.major h2, .loaanly header.major h3, .loaanly header.major h4, .loaanly header.major h5, .loaanly header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly header.major p {
+		color: #4E4852;
+	}
+
+	.loaanly label {
+		color: #2E3842;
+	}
+
+	.loaanly input[type="text"],
+	.loaanly input[type="password"],
+	.loaanly input[type="email"],
+	.loaanly select,
+	.loaanly textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loaanly select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loaanly select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loaanly input[type="checkbox"] + label,
+	.loaanly input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loaanly input[type="checkbox"] + label:before,
+		.loaanly input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loaanly input[type="checkbox"]:checked + label:before,
+	.loaanly input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loaanly ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loaanly :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loaanly ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loaanly :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loaanly .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loaanly .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loaanly table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loaanly table th {
+		color: #2E3842;
+	}
+
+	.loaanly table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loaanly input[type="submit"],
+	.loaanly input[type="reset"],
+	.loaanly input[type="button"],
+	.loaanly button,
+	.loaanly .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loaanly input[type="submit"]:hover,
+		.loaanly input[type="reset"]:hover,
+		.loaanly input[type="button"]:hover,
+		.loaanly button:hover,
+		.loaanly .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loaanly input[type="submit"]:active,
+		.loaanly  input[type="reset"]:active,
+		.loaanly  input[type="button"]:active,
+		.loaanly  button:active,
+		.loaanly .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loaanly .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loaanly {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loaanly {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* lost ark ideation */
+
+.loadea {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loadea > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loadea > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loadea > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loadea.alt {
+		padding: 0;
+	}
+.loadea {
+	background-color: #151a23;
+	color: #AEADAD;
+}
+
+	.loadea strong, .loadea b {
+		color: #1D65D2;
+	}
+
+	.loadea h2, .loadea h3, .loadea h4, .loadea h5, .loadea h6 {
+		color: #ffffff;
+	}
+
+	.loadea hr {
+		border-color: #dfdfdf;
+	}
+
+	.loadea blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loadea code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loadea header p {
+		color: #8E8892;
+	}
+
+	.loadea header.major h2, .loadea header.major h3, .loadea header.major h4, .loadea header.major h5, .loadea header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loadea header.major p {
+		color: #4E4852;
+	}
+
+	.loadea label {
+		color: #2E3842;
+	}
+
+	.loadea input[type="text"],
+	.loadea input[type="password"],
+	.loadea input[type="email"],
+	.loadea select,
+	.loadea textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loadea select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loadea select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loadea input[type="checkbox"] + label,
+	.loadea input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loadea input[type="checkbox"] + label:before,
+		.loadea input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loadea input[type="checkbox"]:checked + label:before,
+	.loadea input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loadea ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadea :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadea ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadea :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadea .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadea .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loadea ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loadea table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loadea table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loadea table th {
+		color: #2E3842;
+	}
+
+	.loadea table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loadea table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loadea table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loadea input[type="submit"],
+	.loadea input[type="reset"],
+	.loadea input[type="button"],
+	.loadea button,
+	.loadea .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loadea input[type="submit"]:hover,
+		.loadea input[type="reset"]:hover,
+		.loadea input[type="button"]:hover,
+		.loadea button:hover,
+		.loadea .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loadea input[type="submit"]:active,
+		.loadea  input[type="reset"]:active,
+		.loadea  input[type="button"]:active,
+		.loadea  button:active,
+		.loadea .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loadea .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loadea {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loadea {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* lost ark lo-fi */
+
+.loalo {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loalo > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loalo > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loalo > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loalo.alt {
+		padding: 0;
+	}
+.loalo {
+	background-color: #000000;
+	color: #AEADAD;
+}
+
+	.loalo strong, .loalo b {
+		color: #1D65D2;
+	}
+
+	.loalo h2, .loalo h3, .loalo h4, .loalo h5, .loalo h6 {
+		color: #ffffff;
+	}
+
+	.loalo hr {
+		border-color: #dfdfdf;
+	}
+
+	.loalo blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loalo code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loalo header p {
+		color: #8E8892;
+	}
+
+	.loalo header.major h2, .loalo header.major h3, .loalo header.major h4, .loalo header.major h5, .loalo header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loalo header.major p {
+		color: #4E4852;
+	}
+
+	.loalo label {
+		color: #2E3842;
+	}
+
+	.loalo input[type="text"],
+	.loalo input[type="password"],
+	.loalo input[type="email"],
+	.loalo select,
+	.loalo textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loalo select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loalo select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loalo input[type="checkbox"] + label,
+	.loalo input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loalo input[type="checkbox"] + label:before,
+		.loalo input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loalo input[type="checkbox"]:checked + label:before,
+	.loalo input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loalo ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loalo :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loalo ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loalo :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loalo .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loalo .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loalo ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loalo table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loalo table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loalo table th {
+		color: #2E3842;
+	}
+
+	.loalo table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loalo table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loalo table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loalo input[type="submit"],
+	.loalo input[type="reset"],
+	.loalo input[type="button"],
+	.loalo button,
+	.loalo .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loalo input[type="submit"]:hover,
+		.loalo input[type="reset"]:hover,
+		.loalo input[type="button"]:hover,
+		.loalo button:hover,
+		.loalo .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loalo input[type="submit"]:active,
+		.loalo  input[type="reset"]:active,
+		.loalo  input[type="button"]:active,
+		.loalo  button:active,
+		.loalo .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loalo .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loalo {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loalo {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* lost ark changes*/
+
+.loacha {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loacha > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loacha > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loacha > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loacha.alt {
+		padding: 0;
+	}
+.loacha {
+	background-color: #090b0f;
+	color: #AEADAD;
+}
+
+	.loacha strong, .loacha b {
+		color: #1D65D2;
+	}
+
+	.loacha h2, .loacha h3, .loacha h4, .loacha h5, .loacha h6 {
+		color: #ffffff;
+	}
+
+	.loacha hr {
+		border-color: #dfdfdf;
+	}
+
+	.loacha blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loacha code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loacha header p {
+		color: #8E8892;
+	}
+
+	.loacha header.major h2, .loacha header.major h3, .loacha header.major h4, .loacha header.major h5, .loacha header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loacha header.major p {
+		color: #4E4852;
+	}
+
+	.loacha label {
+		color: #2E3842;
+	}
+
+	.loacha input[type="text"],
+	.loacha input[type="password"],
+	.loacha input[type="email"],
+	.loacha select,
+	.loacha textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loacha select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loacha select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loacha input[type="checkbox"] + label,
+	.loacha input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loacha input[type="checkbox"] + label:before,
+		.loacha input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loacha input[type="checkbox"]:checked + label:before,
+	.loacha input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loacha ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loacha :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loacha ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loacha :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loacha .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loacha .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loacha ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loacha table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loacha table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loacha table th {
+		color: #2E3842;
+	}
+
+	.loacha table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loacha table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loacha table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loacha input[type="submit"],
+	.loacha input[type="reset"],
+	.loacha input[type="button"],
+	.loacha button,
+	.loacha .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loacha input[type="submit"]:hover,
+		.loacha input[type="reset"]:hover,
+		.loacha input[type="button"]:hover,
+		.loacha button:hover,
+		.loacha .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loacha input[type="submit"]:active,
+		.loacha  input[type="reset"]:active,
+		.loacha  input[type="button"]:active,
+		.loacha  button:active,
+		.loacha .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loacha .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loacha {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loacha {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* lost ark high-fi prototype */
+
+.loahi {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loahi > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loahi > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loahi > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loahi.alt {
+		padding: 0;
+	}
+.loahi {
+	background-color: #000000;
+	color: #AEADAD;
+}
+
+	.loahi strong, .loahi b {
+		color: #1D65D2;
+	}
+
+	.loahi h2, .loahi h3, .loahi h4, .loahi h5, .loahi h6 {
+		color: #ffffff;
+	}
+
+	.loahi hr {
+		border-color: #dfdfdf;
+	}
+
+	.loahi blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loahi code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loahi header p {
+		color: #8E8892;
+	}
+
+	.loahi header.major h2, .loahi header.major h3, .loahi header.major h4, .loahi header.major h5, .loahi header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loahi header.major p {
+		color: #4E4852;
+	}
+
+	.loahi label {
+		color: #2E3842;
+	}
+
+	.loahi input[type="text"],
+	.loahi input[type="password"],
+	.loahi input[type="email"],
+	.loahi select,
+	.loahi textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loahi select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loahi select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loahi input[type="checkbox"] + label,
+	.loahi input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loahi input[type="checkbox"] + label:before,
+		.loahi input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loahi input[type="checkbox"]:checked + label:before,
+	.loahi input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loahi ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loahi :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loahi ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loahi :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loahi .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loahi .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loahi ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loahi table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loahi table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loahi table th {
+		color: #2E3842;
+	}
+
+	.loahi table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loahi table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loahi table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loahi input[type="submit"],
+	.loahi input[type="reset"],
+	.loahi input[type="button"],
+	.loahi button,
+	.loahi .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loahi input[type="submit"]:hover,
+		.loahi input[type="reset"]:hover,
+		.loahi input[type="button"]:hover,
+		.loahi button:hover,
+		.loahi .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loahi input[type="submit"]:active,
+		.loahi  input[type="reset"]:active,
+		.loahi  input[type="button"]:active,
+		.loahi  button:active,
+		.loahi .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loahi .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loahi {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loahi {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* adjusting loahifi prototype */
+
+.loamod{
+	width: auto;
+	height: auto;
+}
+@media screen and (max-width: 786px) {
+	.loamod{
+		width: 1000 !important;
+		height: 1000 !important;
+		transform: scale(0.3);
+		margin-left: -10em !important;
+		margin-top: -15em !important;
+		margin-bottom: -15em !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.loamod{
+		width: 0 auto !important;
+		height: 0 auto !important;
+		transform: scale(0.4);
+		margin-left: -12em !important;
+		margin-top: -15em !important;
+		margin-bottom: -15em !important;
+	}
+}
+
+@media screen and (min-width:900px) and (max-width: 990px) {
+	.loamod{
+		transform: scale(0.65) !important;
+		margin-left: -5em !important;
+		margin-top: -6em !important;
+		margin-bottom: -5em !important;
+	}
+}
+
+/* lost ark design system */
+
+.loasys {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loasys > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loasys > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loasys > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loasys.alt {
+		padding: 0;
+	}
+.loasys {
+	background-color: #30558D;
+	color: #AEADAD;
+}
+
+	.loasys strong, .loasys b {
+		color: #ffffff;
+	}
+
+	.loasys h2, .loasys h3, .loasys h4, .loasys h5, .loasys h6 {
+		color: #ffffff;
+	}
+
+	.loasys hr {
+		border-color: #dfdfdf;
+	}
+
+	.loasys blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loasys code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loasys header p {
+		color: #8E8892;
+	}
+
+	.loasys header.major h2, .loasys header.major h3, .loasys header.major h4, .loasys header.major h5, .loasys header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loasys header.major p {
+		color: #4E4852;
+	}
+
+	.loasys label {
+		color: #2E3842;
+	}
+
+	.loasys input[type="text"],
+	.loasys input[type="password"],
+	.loasys input[type="email"],
+	.loasys select,
+	.loasys textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loasys select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loasys select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loasys input[type="checkbox"] + label,
+	.loasys input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loasys input[type="checkbox"] + label:before,
+		.loasys input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loasys input[type="checkbox"]:checked + label:before,
+	.loasys input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loasys ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loasys :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loasys ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loasys :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loasys .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loasys .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loasys ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loasys table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loasys table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loasys table th {
+		color: #2E3842;
+	}
+
+	.loasys table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loasys table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loasys table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loasys input[type="submit"],
+	.loasys input[type="reset"],
+	.loasys input[type="button"],
+	.loasys button,
+	.loasys .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loasys input[type="submit"]:hover,
+		.loasys input[type="reset"]:hover,
+		.loasys input[type="button"]:hover,
+		.loasys button:hover,
+		.loasys .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loasys input[type="submit"]:active,
+		.loasys  input[type="reset"]:active,
+		.loasys  input[type="button"]:active,
+		.loasys  button:active,
+		.loasys .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loasys .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loasys {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loasys {
+		padding: 3em 2em 2em 2em ;
+	}
+
+}
+
+/* lost ark reflection */
+
+.loadre {
+	padding: 6em 0 6em 0 ;
+}
+
+	.loadre > .inner {
+		width: 50em;
+		margin: 0 auto;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			.loadre > .inner {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 786px) {
+
+			.loadre > .inner {
+				width: 100%;
+			}
+
+		}
+
+	.loadre.alt {
+		padding: 0;
+	}
+.loadre {
+	background-color: #151a23;
+	color: #AEADAD;
+}
+
+	.loadre strong, .loadre b {
+		color: #1D65D2;
+	}
+
+	.loadre h2, .loadre h3, .loadre h4, .loadre h5, .loadre h6 {
+		color: #ffffff;
+	}
+
+	.loadre hr {
+		border-color: #dfdfdf;
+	}
+
+	.loadre blockquote {
+		border-color: #dfdfdf;
+	}
+
+	.loadre code {
+		background: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loadre header p {
+		color: #8E8892;
+	}
+
+	.loadre header.major h2, .loadre header.major h3, .loadre header.major h4, .loadre header.major h5, .loadre header.major h6 {
+		border-color: #dfdfdf;
+	}
+
+	.loadre header.major p {
+		color: #4E4852;
+	}
+
+	.loadre label {
+		color: #2E3842;
+	}
+
+	.loadre input[type="text"],
+	.loadre input[type="password"],
+	.loadre input[type="email"],
+	.loadre select,
+	.loadre textarea {
+		background-color: rgba(0, 0, 0, 0.0375);
+	}
+
+	.loadre select {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
+	}
+
+		.loadre select option {
+			color: #2E3842;
+			background: #ffffff;
+		}
+
+	.loadre input[type="checkbox"] + label,
+	.loadre input[type="radio"] + label {
+		color: #4E4852;
+	}
+
+		.loadre input[type="checkbox"] + label:before,
+		.loadre input[type="radio"] + label:before {
+			background: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loadre input[type="checkbox"]:checked + label:before,
+	.loadre input[type="radio"]:checked + label:before {
+		background: #2E3842;
+		color: #ffffff;
+	}
+
+	.loadre ::-webkit-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadre :-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadre ::-moz-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadre :-ms-input-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadre .formerize-placeholder {
+		color: #8E8892 !important;
+	}
+
+	.loadre .icon.major {
+		border-color: #dfdfdf;
+	}
+
+	.loadre ul.alt li {
+		border-color: #dfdfdf;
+	}
+
+	.loadre table tbody tr {
+		border-color: #dfdfdf;
+	}
+
+		.loadre table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+	.loadre table th {
+		color: #2E3842;
+	}
+
+	.loadre table thead {
+		border-color: #dfdfdf;
+	}
+
+	.loadre table tfoot {
+		border-color: #dfdfdf;
+	}
+
+	.loadre table.alt tbody tr td {
+		border-color: #dfdfdf;
+	}
+
+	.loadre input[type="reset"],
+	.loadre input[type="button"],
+	.loadre button,
+	.loadre .button {
+		box-shadow: inset 0 0 0 2px #dfdfdf;
+		color: #2E3842;
+	}
+
+		.loadre input[type="submit"]:hover,
+		.loadre input[type="reset"]:hover,
+		.loadre input[type="button"]:hover,
+		.loadre button:hover,
+		.loadre .button:hover {
+			background-color: rgba(0, 0, 0, 0.0375);
+		}
+
+		.loadre input[type="submit"]:active,
+		.loadre  input[type="reset"]:active,
+		.loadre  input[type="button"]:active,
+		.loadre  button:active,
+		.loadre .button:active {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.loadre .features li {
+			border-top-color: #dfdfdf;
+		}
+
+	}
+
+@media screen and (max-width: 980px) {
+
+	.loadre {
+		padding: 4em 3em 2em 3em ;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.loadre {
 		padding: 3em 2em 2em 2em ;
 	}
 
