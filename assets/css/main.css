@@ -4309,8 +4309,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 1em 0 1em 0 ;
-		background-color: #030303;
+		padding: 1em 1em 0 0 ;
+		background-color: #000000;
 		text-align: center;
 	}
 
@@ -4327,7 +4327,7 @@ input, select, textarea {
 				}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(250, 250, 250, 0.5);
 			font-size: 0.8em;
 			letter-spacing: 0.225em;
 			list-style: none;
@@ -10705,4 +10705,47 @@ input, select, textarea {
 		padding: 3em 2em 2em 2em ;
 	}
 
+}
+.custom-margin {
+    margin: 40px; /* Add margin to create space around the container */
+}
+
+.photos-container {
+    display: flex;
+    margin: 0 -10px; /* Counteract the margin on .photo-container elements */
+}
+
+.photo-container {
+    flex: 1;
+    margin: 0 10px; /* Adjust the margin to add spacing between photos */
+    position: relative;
+}
+
+.photo-container img {
+    width: 100%;
+    height: 100%; /* Set the exact height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay img {
+    width: 100%; /* Set the exact width */
+    height: 100%; /* Set the exact height */
+    object-fit: cover; /* Ensure the image covers the entire container */
 }
