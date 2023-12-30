@@ -10705,6 +10705,7 @@ input, select, textarea {
 		padding: 3em 2em 2em 2em ;
 	}
 
+	/* Lelabo Images + Random Tesla One */
 }
 .custom-margin {
     margin: 40px; /* Add margin to create space around the container */
@@ -10748,4 +10749,31 @@ input, select, textarea {
     width: 100%; /* Set the exact width */
     height: 100%; /* Set the exact height */
     object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Hasami Images */
+.image-container-wrapper {
+    display: flex;
+    justify-content: space-between; /* Add space between the images */
+    margin: 0 -10px; /* Add margin around the container */
+}
+
+.image-container {
+    flex: 1;
+    position: relative;
+    margin: 10px; /* Add conditional margin between images */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio of the images */
+    display: block;
+}
+
+/* Apply specific margin for the second pair of photos */
+.second-pair {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px; /* Counteract the margin on .image-container elements */
+    margin-top: 20px; /* Adjust the margin as needed */
 }
